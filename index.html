@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
+	<head>
+		<meta charset="utf-8">
+		<title>AlmoPuc</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	</head>
 
   <body>
+	  <h1>Almo Puc </h1>
+	  <ul class="nav nav-tabs">
+		  <li><a href="#espaco32" data-toggle="tab">Espaço 32</a></li>
+		  <li><a href="#silva" data-toggle="tab">Silva Lanches</a></li>
+		  <li><a href="#tiozinho" data-toggle="tab">Tiozinho</a></li>
+		  <li><a href="#sabor" data-toggle="tab">Sabor Familia</a></li>
+		  <li><a href="#ru" data-toggle="tab">RU</a></li>
+		  <li><a href="#onze" data-toggle="tab">Ponto Onze</a></li>
+	  </ul>
+	  <div class="tab-content">
+		  <div id="espaco32" class="tab-pane active">
+			  <h2>Espaco 32</h2>
+			  <iframe src="http://www.almoceaqui.com.br/espaco32" style="width:100%;height:400px;"></iframe>
+		  </div>
+		  <div id="silva" class="tab-pane">
+			  <h2>Silva Lanches</h2>
+			  <iframe src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash4/205356_112865935522209_1092358567_n.jpg" style="width:100%;height:400px;"></iframe>
+		  </div>
+		  <div id="tiozinho" class="tab-pane">
+			  <h2>Tiozinho (a.k.a Bar 3)</h2>
+			  <iframe src="http://www.almoceaqui.com.br/#RestaurantDetails;urlToken=bar3restaurante" style="width:100%;height:400px;"></iframe>
+		  </div>
+		  <div id="sabor" class="tab-pane">
+			  <h2>Sabor Familia (a.k.a Big 3)</h2>
+			  <iframe src="http://www.restaurantesaborfamilia.com.br/pagina.php?id_pagina=301" style="width:100%;height:400px;"></iframe>
+		  </div>
+		  <div id="ru" class="tab-pane">
+			  <h2>RU PUCRS</h2>
+			  <iframe src="http://www.restaurantesaborfamilia.com.br/pagina.php?id_pagina=302" style="width:100%;height:400px;"></iframe>
+		  </div>
+		  <div id="onze" class="tab-pane">
+			  <h2>Ponto Onze (a.k.a 11)</h2>
+			  <iframe src="http://pontoonze.com.br/cardapio.php" style="width:100%;height:400px;"></iframe>
+		  </div>
+	  </div>
+	  <div id="footer">
 
-    <h2>Espaco 32</h2>
-    <iframe src="http://www.almoceaqui.com.br/espaco32" width="1200" height="400"></iframe>
-    <h2>Silva Lanches</h2>
-    <iframe src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash4/205356_112865935522209_1092358567_n.jpg" width="1200" height="400"></iframe>
-    <h2>Tiozinho (a.k.a Bar 3)</h2>
-    <iframe src="http://www.almoceaqui.com.br/#RestaurantDetails;urlToken=bar3restaurante" width="1200" height="400"></iframe>
-    <h2>Sabor Familia (a.k.a Big 3)</h2>
-    <iframe src="http://www.restaurantesaborfamilia.com.br/pagina.php?id_pagina=301" width="1200" height="400"></iframe>
-    <h2>RU PUCRS</h2>
-    <iframe src="http://www.restaurantesaborfamilia.com.br/pagina.php?id_pagina=302" width="1200" height="400"></iframe>
-    <h2>Ponto Onze (a.k.a 11)</h2>
-    <iframe src="http://pontoonze.com.br/cardapio.php" width="1200" height="400"></iframe>
-
+	  </div>
+	  <script src="http://code.jquery.com/jquery.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
